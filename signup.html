@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="signup.css">
+
+        <title>Signup</title>
+    </head>
+    <body class="body">
+        <div class="body-signup">
+            <div class="details">
+                <div class="fname" >
+                    <label for="f_name">FIRST NAME &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</label>
+                    <input type="text" name="f_name" id="f-name" placeholder="First Name" required autofocus>
+                </div>
+                    <div class="mname">
+                        <br>
+                        <label for="m_name">MIDDLE NAME:&nbsp;&nbsp;
+                        </label>
+                        <input type="text" name="_mname" placeholder="Middle Name" id="m-name">
+                    </div>
+                
+                <div class="lname">
+                        <label for="l_name">LAST NAME &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                        <input type="text" name="l_name" placeholder="Last Name" id="l-name" required>
+                </div>
+            </div>
+                    <div class="rollno">
+                        <label for="roll-no">ROLL NUMBER:&nbsp;&nbsp;</label>
+                        <input type="text" name="roll-no" placeholder="Roll Number" id="roll_no" required>
+                    </div>
+           
+            
+                 <div class="user-header">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="user2.jpg" id="userimg">
+                    <label for="user_name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                    <input type="text" id="user-name" placeholder="Username" name="user_name" required>
+                    <br>
+                </div>
+            <div class="content">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="pswd2.png"id="pswdimg"> 
+                <label for="pass">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                 <input type="password"  placeholder="Password" id="pswd"              name="password"
+                minlength="8" required>
+            </div>
+                <div class="role">
+                    <p>SELECT YOUR ROLE :</p>
+                    <form class="choice">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">FACULTY</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">STUDENT</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">ADMIN</label>
+                      </form>
+                </div>
+                <div class="signup-btncontent">
+                    <button class="button-signup">Signup</button>
+
+                </div>
+                <div class="loginpg">
+                    <h3>Back to Login page <button onclick="login()" id="bkbtn">Login
+                    </button></h3>
+
+                </div>
+             </div>
+        </div>
+              <script src="signup.js"></script>
+    </body>

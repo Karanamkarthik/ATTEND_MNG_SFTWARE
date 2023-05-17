@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="student.css">
+
+        <title>student dashboard</title>
+    </head>
+    <body class="body">
+        <div class="body-signup">
+            <div class="details">
+                <h2 class="dash-head">STUDENT DASHBOARD</h2>
+                <div class="fname" >
+                    
+                    <img src="avatar1.png"  class="avatar" alt="profile_picture">
+                    <br>
+                    <h3 id="stuname">NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:KARANAM KARTHIK</h3>
+                    <h3 id="sturoolno">ROLLNO &nbsp;&nbsp;:B20CS012</h3>
+                </div>
+                    <div class="signup-btncontent">
+                        <br>
+                        <button onclick="attendence()" class="button-signup">TOTAL ATTENDANCE REPORT
+                        
+                        </button>
+                    </div>
+                
+                <div class="signup-btncontent">
+                    <button onclick="changepswd()" class="button-signup">CHANGE PASSWORD
+                       
+                    </button>
+                </div>
+            </div>
+                    <div class="signup-btncontent">
+                        <button  onclick="apply_leave()" class="button-signup">APPLY LEAVE
+                       
+                        </button>
+                    </div>
+           
+            
+                 <div class="signup-btncontent">
+                    <button onclick="logout()" class="button-signup">LOGOUT
+                    </button>
+                    <br>
+                </div>
+            
+             </div>
+        </div>
+              <script src="student.js"></script>
+    </body>

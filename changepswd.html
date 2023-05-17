@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="changepswd.css">
+
+        <title>CHANGE PASSWORD</title>
+    </head>
+    <body class="body">
+        <div class="body-submit">
+            <div class="details">
+                <div class="old-pswd" >
+                    <label for="old_pswd">OLD PASSWORD &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</label>
+                    <input type="text" name="old_pswd" id="pswdold" placeholder="Enter old password" required autofocus>
+                </div>
+                    <div class="new-pswd">
+                        <br>
+                        <label for="new_pswd">NEW PASSWORD &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;
+                        </label>
+                        <input type="text" name="new_pswd" placeholder="Enter new password" id="pswdnew">
+                    </div>
+                
+                <div class="re-pswd">
+                        <label for="re_pswd">RE-TYPE NEW PASSWORD &nbsp;:&nbsp;&nbsp;</label>
+                        <input type="text" name="re_pswd" placeholder="Re-enter new password" id="pswdre" required>
+                </div>
+            </div>
+                
+                <div class="submit-btncontent">
+                    <button type="submit
+                    " class="button-submit">Submit</button>
+
+                </div>
+                <div class="loginpg">
+                    <h3>Back to Login page <button onclick="login()" id="bkbtn">Login
+                    </button></h3>
+
+                </div>
+             </div>
+        </div>
+              <script src="changepswd.js"></script>
+    </body>

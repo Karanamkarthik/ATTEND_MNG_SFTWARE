@@ -1,0 +1,103 @@
+body{
+    background-image: url('bg5.jpg');
+    background-repeat: none;
+}
+.body-submit{
+    border: none;
+    border-radius: 5%;
+    border-color: rgb(182, 193, 84);
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+    background-color: rgb(85, 81, 57);
+    position:relative;
+    font-size: 20px;
+}
+.user-header{
+    display: flex;
+}
+#userimg{
+    border: none;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 50px;
+    width: 50px;
+    
+    cursor: pointer;
+}
+#user-name,#pswd{
+   
+    background-color: rgb(214, 103, 39);
+    color: #000000;
+    border: none;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+label{
+    color: white;
+    margin-top: 4%;
+}
+.old-pswd,.new-pswd,.re-pswd,.user-header,.content,.rollno{
+    display: flex;
+    align-items: center;
+    margin: 5% auto 0% 20%;
+}
+#pswdold,#pswdnew,#pswdre,#roll_no{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    border-color: transparent;
+    tab-size: 40px;
+    height:30px;
+    width: 200px;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+   border-radius: 18px;
+}
+
+.submit-btncontent{
+    color:#000000;
+    border:none;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+  }
+  .button-submit{
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      border-color: #fff;
+      transition: all .1s ease-in-out;
+    }
+  }
+  .loginpg{
+    color:#eeeeee;
+    border:none;
+    margin-left: 50%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+  }
+  #bkbtn{
+    border-radius: 10% 10% 10% 10%;
+    border: none;
+    background-color: #1c89ff;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  

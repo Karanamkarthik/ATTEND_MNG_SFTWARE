@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+
+        <title>Signup</title>
+    </head>
+    <body class="body">
+        <div class="body-signup">
+            <div class="details">
+                <h2 class="dash-head">ADMIN DASHBOARD</h2>
+                <div class="fname" >
+                    
+                    <img src="avatar1.png"  class="avatar" alt="profile_picture">
+                    <br>
+                    <h3 id="stuname">NAME &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;RAVI TEJA</h3>
+                    <h3 id="sturoolno">ID-NO &nbsp;&nbsp;:&nbsp;&nbsp;AD14-001</h3>
+                </div>
+                    <div class="signup-btncontent">
+                        <br>
+                        <button onclick="edit_details()" class="button-signup">CREATE/EDIT DETAILS
+                        
+                        </button>
+                    </div>
+                
+                <div class="signup-btncontent">
+                   
+                    <button  onclick="backup()" class="button-signup">BACKUP 
+                       
+                    </button>
+                </div>
+            </div>
+                    <div class="signup-btncontent">
+                        <button onclick="changepswd()" class="button-signup">CHANGE PASSWORD
+                       
+                        </button>
+                    </div>
+           
+            
+                 <div class="signup-btncontent">
+                    <button onclick="logout()" class="button-signup">LOGOUT
+                    </button>
+                    <br>
+                </div>
+            
+             </div>
+        </div>
+              <script src="admin.js"></script>
+    </body>

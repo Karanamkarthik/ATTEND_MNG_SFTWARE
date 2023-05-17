@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="leave.css">
+
+        <title>website</title>
+    </head>
+    <body>
+    
+    <div class="container">
+        <h1>APPLY LEAVE</h1>
+            <div class="lvdate">
+                <label for="date_of_leave">DATE OF LEAVE &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</label>
+                <input type="date" name="date_of_leave"  id="dol" placeholder="Enter date" required autofocus>
+               
+                <label for="date_of_leave"> &nbsp;&nbsp;&nbsp;--- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</label>
+                <input type="date" name="date_of_leave"  id="dol" placeholder="Enter date" required autofocus>
+                
+             </div>
+             <div class="reason">
+                <label for="lv_reason">REASON OF LEAVE &nbsp;:&nbsp;&nbsp;</label>
+                <input type="text" name="lv_reason" id="rol" required>
+             </div>
+             <div class="submit-btncontent">
+                <button type="submit
+                " class="button-submit">Submit</button>
+
+            </div>
+             <div class="dashboardpg">
+                <h3>Back to Dash Board page <button 
+                    onclick="dbpg()" id="bkbtn">BACK
+                </button></h3>
+
+            </div>
+    </div>
+    <script src="leave.js"></script>
+    </body>
+    </html>

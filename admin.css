@@ -1,0 +1,62 @@
+body{
+    background-image: url('bg3.webp');
+    background-repeat: none;
+}
+.body-signup{
+    border: none;
+    border-radius: 5%;
+    border-color: rgb(182, 193, 84);
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+    background-color: rgb(55, 196, 149);
+    position:relative;
+    font-size: 20px;
+}
+.fname{
+    align-items: center;
+    margin: 5% auto 0% 20%;
+}
+.mname,.lname,.user-header,.content,.rollno{
+    display: flex;
+    align-items: center;
+    margin: 5% auto 0% 20%;
+}
+.dash-head{
+    align-items: center;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(0, 0, 0);
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    padding-left: 30%;
+    border: none;
+    border-radius:  10px 10px 10px 10px;
+}
+.signup-btncontent{
+    color:#000000;
+    border:none;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+  }
+  .button-signup{
+    display: block;
+    width: 220px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #3172ae;
+    border: solid 1px transparent;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      border-color: #fff;
+      transition: all .1s ease-in-out;
+    }
+  }
